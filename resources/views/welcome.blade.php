@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+		<link href="{{mix('css/app.css')}}?{{ time() }}" rel="stylesheet" type="text/css">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -93,6 +94,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+			<div id="example"></div>
         </div>
+		<script src="{{mix('js/app.js')}}?{{ time() }}" ></script>
     </body>
 </html>
