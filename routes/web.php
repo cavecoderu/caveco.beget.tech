@@ -11,10 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/test/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Frontend\Main@show');
+Route::get('/{chatId}/', 'Frontend\Chat@show');
