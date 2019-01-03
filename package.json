@@ -26,6 +26,7 @@
     "dependencies": {
         "@material-ui/core": "^3.8.1",
         "body-parser": "^1.18.3",
+        "querystring": "^0.2.0",
         "whatwg-fetch": "^3.0.0"
     }
 }

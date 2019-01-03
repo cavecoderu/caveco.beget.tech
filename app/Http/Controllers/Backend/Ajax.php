@@ -8,7 +8,12 @@ use App\Http\Controllers\Controller;
 class Ajax extends Controller
 {
     //
-	public function Show(Request $request)
+	public function OpenChat(Request $request)
+	{
+		return json_encode($request->all());
+	}
+	
+	public function newChat(Request $request)
 	{
 		return json_encode($request->all());
 	}
