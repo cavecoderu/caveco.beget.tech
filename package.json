@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.5.21"
     },
     "dependencies": {
-        "@material-ui/core": "^3.8.1"
+        "@material-ui/core": "^3.8.1",
+        "body-parser": "^1.18.3",
+        "whatwg-fetch": "^3.0.0"
     }
 }

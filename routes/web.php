@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'Frontend\Main@show');
-Route::get('/{chatId}/', 'Frontend\Chat@show');
+Route::post('/open-chat', 'Backend\Ajax@show');
+//Route::get('/{chatId}/', 'Frontend\Chat@show');
