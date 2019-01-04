@@ -38,7 +38,14 @@ export class MainForm extends Component {
 			})
 			}).then(function (response){
 				response.text().then(function(text) {
-				console.log(text);
+				if (text != 'false' && text != 'current exist' && text != 'not exist')
+				{
+					document.location.href = '/' + text
+				}
+				else
+				{
+					console.log(text);
+				}
 			})
 		});
 		event.preventDefault();
@@ -110,7 +117,14 @@ export class NewForm extends Component {
 			})
 			}).then(function (response){
 				response.text().then(function(text) {
-				console.log(text);
+				if (text != 'false' && text != 'current exist' && text != 'not exist')
+				{
+					document.location.href = '/' + text
+				}
+				else
+				{
+					console.log(text);
+				}
 			})
 		});
 		event.preventDefault();

@@ -10,6 +10,6 @@ class Chat extends Controller
     //
 	public function Show($chatId)
 	{
-		return view('main', Array('id' => 'is chat', 'chatId' => $chatId));
+		return view('chat', Array('id' => 'is chat', 'chatId' => $chatId));
 	}
 }
